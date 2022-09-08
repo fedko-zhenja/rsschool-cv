@@ -29,3 +29,9 @@
 - Git, GitHub
 - Figma
 - VS Code
+
+---
+
+## Pet Projects
+
+- <https://github.com/fedko-zhenja/mock-up_cosmetology.git>
