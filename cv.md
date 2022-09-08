@@ -20,3 +20,12 @@
 - **Belarusian State Academy of Communications** (Faculty of Postal Communication)
 
 ---
+
+## Skills
+
+- HTML
+- CSS
+- JS (basics)
+- Git, GitHub
+- Figma
+- VS Code
