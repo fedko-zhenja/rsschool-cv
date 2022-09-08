@@ -35,3 +35,30 @@
 ## Pet Projects
 
 - <https://github.com/fedko-zhenja/mock-up_cosmetology.git>
+
+---
+
+## Code Example
+
+``` let text = "The_stealth_warrior";
+
+function convert (str) {
+    if (typeof str !== 'string') {
+        return null;
+    }
+
+    let newText = '';
+
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] == '-' || str[i] == '_') {
+            newText = newText + str[i + 1].toUpperCase();
+            i++;
+        } else {
+            newText = newText + str[i];
+        }
+    }
+    return newText;
+}
+```
+
+- <https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript>
