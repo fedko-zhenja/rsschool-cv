@@ -135,3 +135,19 @@ h3 {
     font-size: 30px;
     margin-left: 40px;
 }
+
+/* education */
+
+.education {
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.education-text {
+    color: #071C71;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
