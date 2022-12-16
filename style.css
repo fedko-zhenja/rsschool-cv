@@ -53,3 +53,46 @@ font-size: 30px;
     transition: 3s;
 }
 
+/* main */
+
+/* profile */
+
+.background-section {
+    background-color: rgba(244, 244, 244, 0.62);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+    font-size: 30px;
+    color: #071C71;
+}
+
+.profile {
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 414px;
+    height: 337px;
+    filter: grayscale(0.6) brightness(93%) contrast(1);
+}
+
+h1 {
+    font-size: 60px;
+    color: #071C71;
+    margin: 0px 0px 15px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 50px;
+    color: rgba(58, 76, 134, 1.3);
+}
