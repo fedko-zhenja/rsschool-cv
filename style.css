@@ -168,7 +168,15 @@ h3 {
 
 .pet-projects {
     width: 1440px;
-    height: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pet-projects-link {
+    color: #071C71;
+    font-size: 30px;
+    margin-left: 40px;
 }
 
 /* code-example */
