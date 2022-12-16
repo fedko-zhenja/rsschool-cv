@@ -163,3 +163,10 @@ h3 {
 .skills-list {
     height: 250px;
 }
+
+/* pet-projects */
+
+.pet-projects {
+    width: 1440px;
+    height: 450px;
+}
