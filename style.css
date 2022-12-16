@@ -186,3 +186,18 @@ h3 {
     font-size: 14px;
 
 }
+
+/* languages */
+
+.languages {
+    width: 1440px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.languages-list {
+    height: 100px;
+}
+
+/* footer */
