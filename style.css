@@ -115,3 +115,23 @@ h3 {
 .contact-information-list {
     height: 250px;
 }
+
+
+/* about-myself */
+
+.about-myself {
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-myself-text {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #071C71;
+    font-size: 30px;
+    margin-left: 40px;
+}
