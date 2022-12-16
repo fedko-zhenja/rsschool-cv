@@ -151,3 +151,15 @@ h3 {
     margin-left: 40px;
 }
 
+/* skills */
+
+.skills {
+    width: 1440px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list {
+    height: 250px;
+}
