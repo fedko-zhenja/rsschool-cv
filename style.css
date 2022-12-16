@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    background-image: url(img/siniy3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #071C71;
+}
+
+a:hover {
+    color: #0969A2;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.margin-container {
+    margin: 40px auto;
+}
+
+/* header */
+
+.nav {
+    background-color: rgba(244, 244, 244, 0.62);
+}
+
+.nav-list {
+    width: 1440px;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-item {
+display: inline;
+font-size: 30px;
+}
+
+.nav-link {
+    transition: 3s;
+}
+
