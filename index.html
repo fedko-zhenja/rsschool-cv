@@ -83,6 +83,35 @@
                 <a name="pet-projects"></a>
                 <h3>Pet Projects</h3>
             </section>
+
+            <section class="code-example background-section margin-container">
+                <a name="code-example"></a>
+                <h3>Code Example</h3>
+                <pre class="code-example-text">
+                    <b>
+                    let text = "The_stealth_warrior";
+            
+                    function convert (str) {
+                        if (typeof str !== 'string') {
+                            return null;
+                        }
+            
+                        let newText = '';
+            
+                        for (let i = 0; i < str.length; i++) {
+                            if (str[i] == '-' || str[i] == '_') {
+                                newText = newText + str[i + 1].toUpperCase();
+                                i++;
+                            } else {
+                                newText = newText + str[i];
+                            }
+                        }
+                        return newText;
+                    }
+                    </b>
+                    <a href="https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript">https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript</https:></a> 
+                </pre>
+            </section>
             
             
 
