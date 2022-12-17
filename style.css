@@ -3,18 +3,18 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    background-image: url(img/siniy3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(img/new13.webp);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 a {
     text-decoration: none;
-    color: #071C71;
+    color: #A65A00;
 }
 
 a:hover {
-    color: #0969A2;
+    color: #FF6B40;
 }
 
 .container {
@@ -27,10 +27,6 @@ a:hover {
 }
 
 /* header */
-
-.nav {
-    background-color: rgba(244, 244, 244, 0.62);
-}
 
 .nav-list {
     width: 1440px;
@@ -49,16 +45,13 @@ display: inline;
 font-size: 30px;
 }
 
-.nav-link {
-    transition: 3s;
-}
-
 /* main */
 
 /* profile */
 
 .background-section {
-    background-color: rgba(244, 244, 244, 0.62);
+    background-color: rgba(244, 244, 244, 0.40);
+    border-radius: 10px;
 }
 
 .list {
@@ -68,7 +61,7 @@ font-size: 30px;
     margin: 0;
     list-style: none;
     font-size: 30px;
-    color: #071C71;
+    color: #A65A00;
 }
 
 .profile {
@@ -82,19 +75,25 @@ font-size: 30px;
 .profile-photo {
     width: 414px;
     height: 337px;
-    filter: grayscale(0.6) brightness(93%) contrast(1);
+    border-radius: 10px;
+    transition: transform 0.25s;
+    object-fit: cover;
+}
+
+.profile-photo:hover {
+    transform: scale(1.3);
 }
 
 h1 {
     font-size: 60px;
-    color: #071C71;
+    color: #A65A00;
     margin: 0px 0px 15px;
 }
 
-h2 {
+.profile-title-second {
     margin: 0;
     font-size: 50px;
-    color: rgba(58, 76, 134, 1.3);
+    color: #BF7E30;
 }
 
 /* contact-information */
@@ -106,10 +105,10 @@ h2 {
     flex-direction: column;
 }
 
-h3 {
+.title {
     margin-left: 40px;
     font-size: 40px;
-    color: #071C71;
+    color: #A65A00;
 }
 
 .contact-information-list {
@@ -121,17 +120,17 @@ h3 {
 
 .about-myself {
     width: 1440px;
-    height: 450px;
+    height: 480px;
     display: flex;
     flex-direction: column;
 }
 
 .about-myself-text {
-    height: 250px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #071C71;
+    color: #A65A00;
     font-size: 30px;
     margin-left: 40px;
 }
@@ -146,7 +145,7 @@ h3 {
 }
 
 .education-text {
-    color: #071C71;
+    color: #A65A00;
     font-size: 30px;
     margin-left: 40px;
 }
@@ -174,7 +173,7 @@ h3 {
 }
 
 .pet-projects-link {
-    color: #071C71;
+    color: #A65A00;
     font-size: 30px;
     margin-left: 40px;
 }
@@ -190,7 +189,7 @@ h3 {
 
 .code-example-text {
     margin: 0;
-    color: #071C71;
+    color: #A65A00;
     font-size: 14px;
 
 }
@@ -209,3 +208,29 @@ h3 {
 }
 
 /* footer */
+
+.footer {
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    color: #A65A00;
+}
+
+.rs-logo {
+    background-image: url(./img/rs-logo.png);
+    width: 160px;
+    height: 59px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.github-logo {
+    background-image: url(./img/github-logo-5.png);
+    width: 63px;
+    height: 60px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
