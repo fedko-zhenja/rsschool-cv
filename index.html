@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container margin-container">
+            <nav class="background-section">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contact-information"><b>Contact Information</b></a></li>
+                  <li class="nav-item"><a href="#about-myself"><b>About Myself</b></a></li>
+                  <li class="nav-item"><a href="#education"><b>Education</b></a></li>
+                  <li class="nav-item"><a href="#skills"><b>Skills</b></a></li>
+                  <li class="nav-item"><a href="#pet-projects"><b>Pet Projects</b></a></li>
+                  <li class="nav-item"><a href="#code-example"><b>Code Example</b></a></li>
+                  <li class="nav-item"><a href="#languages"><b>Languages</b></a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+
+            <section class="profile background-section margin-container">
+                <img class="profile-photo" src="img/profile-img.jpg" alt="profile photo">
+                <div class="profile-title">
+                    <h1>Fedko Zhenja</h1>
+                    <h2 class="profile-title-second">Junior Front-End Developer</h2>
+                </div>
+            </section>
+
+
+            <section class="contact-information background-section margin-container">
+                <a name="contact-information"></a>
+                <h2 class="title">Contact Information</h2>
+                <ul class="contact-information-list list">
+                    <li><b>Phone:</b> + 375 29 540 54 24 <b>BY</b>; +995 511 10 58 35 <b>GE</b>.</li>
+                    <li><b>E-mail:</b><a href="mailto:fedkozhenja@gmail.com"> fedkozhenja@gmail.com</a></li> 
+                    <li><b>Telegram:</b><a href="https://t.me/ZhenjaFedko"> Zhenja Fedko</a></li>
+                    <li><b>GitHub:</b><a href="https://github.com/fedko-zhenja"> fedko-zhenja</a></li>
+                    <li><b>Discord (server rs school):</b> Fedko Zhenja (@fedko-zhenja)</li>
+                </ul>
+            </section>
+
+            <section class="about-myself background-section margin-container">
+                <a name="about-myself"></a>
+                <h2 class = "title">About Myself</h2>
+                <div class="about-myself-text">
+                    <span>I am 25. In November 2021, I began to learn programming, starting with HTML and CSS.</span>
+                    <span>In March of this year, I got acquainted with GIT and JS, which I still study and practice.</span>
+                    <span>Before I started learning programming, I worked for 3.5 years as a postal specialist at the post office.</span>
+                    <span>This work helped me to acquire such qualities as: sociability, stress resistance, learning ability, perseverance.</span>
+                    <span>These skills helped me in learning how to program and will help me become a good front-end developer.</span>
+                    <span><b>Video About Me: </b><a href="https://youtu.be/Jz8qiJOJUyw">https://youtu.be/Jz8qiJOJUyw</a></span>
+                </div>
+            </section>
+
+            <section class="education background-section margin-container">
+                <a name="education"></a>
+                <h2 class = "title">Education</h2>
+                <span class="education-text">Belarusian State Academy of Communications (Faculty of Postal Communication)</span>
+            </section>
+
+            <section class="skills background-section margin-container">
+                <a name="skills"></a>
+                <h2 class="title">Skills</h2>
+                <ul class="skills-list list">
+                    <li>- HTML</li>
+                    <li>- CSS</li>
+                    <li>- JS (basics)</li>
+                    <li>- Git, GitHub</li>
+                    <li>- Figma</li>
+                    <li>- VS Code</li>
+                </ul>
+            </section>
+
+            <section class="pet-projects background-section margin-container">
+                <a name="pet-projects"></a>
+                <h2 class="title">Pet Projects</h2>
+                <a class="pet-projects-link" href="https://fedko-zhenja.github.io/mock-up_cosmetology/">https://fedko-zhenja.github.io/mock-up_cosmetology/</a>
+            </section>
+
+            <section class="code-example background-section margin-container">
+                <a name="code-example"></a>
+                <h2 class="title">Code Example</h2>
+                <pre class="code-example-text">
+                    <b>
+                    let text = "The_stealth_warrior";
+            
+                    function convert (str) {
+                        if (typeof str !== 'string') {
+                            return null;
+                        }
+            
+                        let newText = '';
+            
+                        for (let i = 0; i < str.length; i++) {
+                            if (str[i] == '-' || str[i] == '_') {
+                                newText = newText + str[i + 1].toUpperCase();
+                                i++;
+                            } else {
+                                newText = newText + str[i];
+                            }
+                        }
+                        return newText;
+                    }
+                    </b>
+                    <a href="https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript">https://www.codewars.com/kata/517abf86da9663f1d2000003/javascript</https:></a> 
+                </pre>
+            </section>
+
+            <section class="languages background-section margin-container">
+                <a name="languages"></a>
+                <h2 class="title">Languages</h2>
+                <ul class="languages-list list">
+                    <li>- Russian - native language</li>
+                    <li>- English - A1 (in the process of studying)</li>
+                </ul>
+            </section>
+            
+        </div>
+    </main>
+    <footer>
+        <div class="container margin-container">
+
+            <div class="footer background-section">
+                <a class="rs-logo" href="https://rs.school/js/" title="click me" alt="rs-logo"></a>
+                <a class="github-logo" href="https://github.com/fedko-zhenja" title="click me" alt="github-logo"></a>
+                <span><b>© 2022 by Fedko Zhenja</b></span>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
