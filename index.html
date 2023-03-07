@@ -83,14 +83,14 @@
                 <pre class="code-example-text">
                     <b>
                     let text = "The_stealth_warrior";
-            
+
                     function convert (str) {
                         if (typeof str !== 'string') {
                             return null;
                         }
-            
+
                         let newText = '';
-            
+
                         for (let i = 0; i &lt; str.length; i++) {
                             if (str[i] == '-' || str[i] == '_') {
                                 newText = newText + str[i + 1].toUpperCase();
