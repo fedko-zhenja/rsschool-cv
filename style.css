@@ -8,14 +8,14 @@ body {
     background-size: cover; */
 }
 
-a {
+/* a {
     text-decoration: none;
     color: #A65A00;
-}
+} */
 
-a:hover {
+/* a:hover {
     color: #FF6B40;
-}
+} */
 
 .container {
     max-width: 1440px;
